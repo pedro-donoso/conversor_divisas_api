@@ -7,28 +7,36 @@
     <meta autor="pedro donoso">
     <meta name="conversor de divisas" content="obteneer datos desde API">
     <title>Conversor de divisas</title>
+    
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <div class="container" id="divisa">
-        <div class="divisa_tipo">
-            <div class="divisa_nombre"> Euros </div>
-            <input class="divisa_valor" type="number" value="1">
-        </div>
+        <h5>Datos de cambio:</h5>
+
+        <h6>Base: "USD"</h6>
+
+         <h6>Fecha: "2020-08-14"</h6>
+
         <div class="divisa_tipo">
             <div class="divisa_nombre"> Dólares </div>
-            <input class="divisa_valor" type="number" value="1">
+            <input class="divisa_valor" type="number" value="1" data-cambio="1">
+        </div>
+        <div class="divisa_tipo">
+            <div class="divisa_nombre"> Euros </div>
+            <input class="divisa_valor" type="number" value="1" data-cambio="0.8465250148">
         </div>
         <div class="divisa_tipo">
             <div class="divisa_nombre"> Libras </div>
-            <input class="divisa_valor" type="number" value="1">
+            <input class="divisa_valor" type="number" value="1" data-cambio="0.7633370016">
         </div>
         <div class="divisa_tipo">
             <div class="divisa_nombre"> Yenes </div>
-            <input class="divisa_valor" type="number" value="1">
+            <input class="divisa_valor" type="number" value="1" data-cambio="106.6706171167">
         </div>
     </div>
 </body>
-
+<script src="/assets/js/script.js"></script>
 </html>
+

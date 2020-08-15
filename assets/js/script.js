@@ -6,7 +6,14 @@ inputs.forEach(input => {
 });
 
 function valorModificado(input) {
-    console.log(input.value);
+    let factor = input.value / input.dataset.cambio;
+
+        inputs.forEach(input => {
+            input.value = (input.dataset.cambio * factor).toFixed(2);
+        });
+
+
+
 }
 
 

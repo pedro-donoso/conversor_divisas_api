@@ -5,6 +5,8 @@ inputs.forEach(input => {
     input.value = input.dataset.cambio;
 });
 
-
+function valorModificado(input) {
+    console.log(input.value);
+}
 
 

@@ -7,6 +7,11 @@ body {
 #divisa {
   border: solid 1px red;
   padding: 1rem 1rem;
+  background: darkgray;
+}
+
+.divisa_titulo {
+  text-align: center;
 }
 
 .divisa_tipo {

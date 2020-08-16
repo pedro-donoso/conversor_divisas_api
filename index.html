@@ -19,24 +19,27 @@
     <div class="container" id="divisa">
         <h5>Datos de cambio:</h5>
 
-        <h6>Base: "1 EURO"</h6>
+        <div class="alert alert-warning" role="alert">Base: "1 EURO"</div>
+
+        
 
         <div class="divisa_tipo">
-            <div class="divisa_nombre"> Euros </div>
+
+            <div class="divisa_nombre btn btn-primary"> Euros </div>
             <input class="divisa_valor" type="number" value="1" data-cambio="1" step="0.25" onchange="valorModificado(this)">
         </div>
         <div class="divisa_tipo">
-            <div class="divisa_nombre"> Dólares </div>
+            <div class="divisa_nombre btn btn-secondary"> Dólares </div>
             <input class="divisa_valor" type="number" value="1" step="0.25"
                 onchange="valorModificado(this)" id="USD">
         </div>
         <div class="divisa_tipo">
-            <div class="divisa_nombre"> Libras </div>
+            <div class="divisa_nombre btn btn-success"> Libras </div>
             <input class="divisa_valor" type="number" value="1" step="0.25"
                 onchange="valorModificado(this)" id="GBP">
         </div>
         <div class="divisa_tipo">
-            <div class="divisa_nombre"> Yenes </div>
+            <div class="divisa_nombre btn btn-warning"> Yenes </div>
             <input class="divisa_valor" type="number" value="1" 
                 onchange="valorModificado(this)" id="JPY">
         </div>
